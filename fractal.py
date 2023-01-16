@@ -1,5 +1,9 @@
-pattern = {'111':'0', '110':'1', '101':'0', '100':'1', '011':'1', '010':'0', '001':'1', '000':'0'}
-l = input()
+width = 61
+half = width // 2
+half_zero = 'o' * half
+l = half_zero + '*' + half_zero
+
+pattern = {'***':'o', '**o':'*', '*o*':'o', '*oo':'*', 'o**':'*', 'o*o':'o', 'oo*':'*', 'ooo':'o'}
 
 for j in range(len(l)):
     next = ''
