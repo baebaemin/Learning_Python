@@ -4,6 +4,5 @@ def list_sum(nums):
         total += i
     return total
 
-
 rlt = list_sum([1, 2, 3, 4, 5])
 print(rlt)
