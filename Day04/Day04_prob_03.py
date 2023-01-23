@@ -8,4 +8,4 @@ def dic_list_sum(data):
         total += data[i]['age']
     return total
 
-print(dic_list_sum([{'name': 'kim', 'age': 12}, {'name': 'lee', 'age': 4}]))
+dic_list_sum([{'name': 'kim', 'age': 12}, {'name': 'lee', 'age': 4}])

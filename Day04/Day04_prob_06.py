@@ -6,5 +6,6 @@ def get_secret_number(word):
     for i in list(word):
         num += ord(i)
     return num
-print(get_secret_number('happy')) # => 546
+    
+get_secret_number('happy') # => 546
  
