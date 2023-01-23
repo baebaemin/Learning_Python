@@ -4,8 +4,8 @@ dict_list_sum 함수를 built-in 함수인 sum() 함수를 사용하지 않고 �
 
 def dic_list_sum(data):
     total = 0
-    for i in range(len(data)):
-        total += data[i]['age']
+    for i in data:
+        total += i['age']
     return total
 
-dic_list_sum([{'name': 'kim', 'age': 12}, {'name': 'lee', 'age': 4}])
+print(dic_list_sum([{'name': 'kim', 'age': 12}, {'name': 'lee', 'age': 4}]))
