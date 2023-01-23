@@ -8,4 +8,4 @@ def all_list_sum(num):
             total += i[j]
     return total
 
-all_list_sum([[1], [2, 3], [4, 5, 6], [7, 8, 9, 10, 11]]) # => 55
+print(all_list_sum([[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]])) # => 55

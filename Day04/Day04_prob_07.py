@@ -13,7 +13,7 @@ def get_strong_word(w1, w2):
     n2 = get_num(w2)
 
     if n1 == n2:
-        return w1, w2
+        return w1 + ', ' + w2
     return w1 if n1 > n2 else w2
         
 print(get_strong_word('z', 'a')) # => 'z'
