@@ -1,17 +1,9 @@
-word = 'SsaFyYabcdefgz'
-new = ''
+N = 10
+n = range(1, N // 2 + 1)
 
-# 대문자를 소문자로 바꾸기
-# for ch in word:
-#     if 65 <= ord(ch) <= 90:
-#         new += chr(ord(ch) + ord('a') - ord('A'))
-#     else: new += ch
-# print(new)
+def div_list(i):
+    if N % i == 0:
+        return i
 
-# 소문자를 대문자로 바꾸기
-
-for ch in word:
-    if 97 <= ord(ch) <= 122:
-        new += chr(ord(ch) - 32)
-    else: new += ch
-print(new)
+rlt = filter(div_list, n)
+print(*rlt, N)
