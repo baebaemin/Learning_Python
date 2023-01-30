@@ -1,4 +1,6 @@
 class Person:
+    num_of_dogs = 0
+    birth_of_dogs = 0
     # 생성자, dunder(double underscore)
     # 모든 인스턴스들에 변수 생성에 사용
     def __init__(self):
