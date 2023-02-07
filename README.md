@@ -1,7 +1,7 @@
 ### goal = escaping 왕초보 파이썬 🔥
 
 #### 230123
-* a = '1' in <iterable> => a는 True나 False
+* a = '1' in iterable => a는 Boolean값을 얻음
 * is_eng = lambda x: 65 <= ord(x) <= 122
 
 #### 230120
